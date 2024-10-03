@@ -1,8 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: app2
-  namespace: app3
+  name: app3
 spec:
   progressDeadlineSeconds: 600
   replicas: 1
